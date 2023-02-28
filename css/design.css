@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -34,6 +36,7 @@
 .option li{
     list-style: none;
     padding: 20px 25px;
+    
 
 }
 .option li a{
@@ -42,7 +45,7 @@ color: white;
 
 }
 .option li a:hover{
-    color: red;
+    color: rgb(161, 2, 2);
     
     }
 .navigationbarright{
@@ -107,14 +110,13 @@ color: white;
 
 .title{
     font-size: 40px;
-    text-align: center;
+    text-align:start;
 
 
 }
 
 .detail{
     font-size: 20px;
-
 }
 
 .btn {
@@ -132,15 +134,26 @@ color: white;
     padding: 6px 10px;
     vertical-align: middle;
 }
-
+/*section start*/
 .sectionsecond{
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width:90%;
+    overflow: auto;
+    padding: 0px 98px;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.infoT{
+    padding: 7%;
     
 }
-.thubnail{
-    padding: 20%;
+.demo1{
+    border-radius: 20%;
+    margin-top: 20%;
+}
+.details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
