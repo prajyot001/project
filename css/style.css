@@ -44,7 +44,6 @@
 @keyframes pulse{
    from{
     box-shadow: 0 0 25px #7effb2,0 0 50px #2cd9ff;
-    
    border-radius: 9px;
   } 
   
