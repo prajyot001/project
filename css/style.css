@@ -1,55 +1,61 @@
 *{
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 .logo{
 
-    width: 15%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    
+  width: 50px;
+  display: flex;
+  justify-content: start;
+  border: #fff;
+  border-radius: 50%;
+  
 }
+
 .navbar {
-    margin-bottom: 0;    
-    border: 0;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-   background-color:#0A261F;   
-   
-  }
-  /* menu */
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #d60f0f !important;
-  }
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color:black !important;
-    background-color:#51E5A1 !important;
-  }
+  margin-bottom: 0;    
+  border: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+ background-color:#0A261F;   
+ 
+}
+
+/* menu */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: white !important;
+ 
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color:black !important;
+  background-color:#51E5A1 !important;
+}
+
 .navbar-brand{
-    font-family:inherit;
+  font-family:inherit;
 }
 /* navigation style end */
 
 .jumbotron {
-    background: #51E5A1;
-    color: #fff;
-    padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
-  }
-  .thumbnail{
+  background: #51E5A1;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+.thumbnail{
 border-color: black;
-  }
-  
-  .caption{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
+}
+
+.caption{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
