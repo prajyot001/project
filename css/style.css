@@ -13,15 +13,16 @@
 }
 
 .navbar {
-  margin-bottom: 0;    
+  margin-bottom: 0;
   border: 0;
   font-family: Montserrat, sans-serif;
   font-size: 14px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
- background-color:#0A261F;   
- padding: 5px;
+  background-color:#0A261F;
+  padding: 5px;
+ 
 }
 
 /* menu */
@@ -64,9 +65,9 @@
 /* navigation style end */
 
 .jumbotron {
-  background: #51E5A1;
+  background: #2cd9ff;
   color: #fff;
-  padding: 100px 25px;
+  padding: 150px 25px;
   font-family: Montserrat, sans-serif;
 }
 .box_main{
@@ -95,4 +96,35 @@
 .texttitle{
   text-align: center;
   font-style: normal;
+}
+
+
+
+/* product */
+.down{
+margin-top: 10%;
+}
+.imgshadow{
+  box-shadow: 0 0 0 5px gray;
+}
+
+
+.invalid-feedback{
+  color: red;
+  margin-top: 6px;
+}
+.needs-validation{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 320px)  {
+  .down{
+    margin-top: 20%;
+  }
+}
+.btn-primary{
+  margin-top: 15px;
+}
+.bg{
+  background-color:azure;
 }
