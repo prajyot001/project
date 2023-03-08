@@ -7,7 +7,7 @@
   }
 .container{
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   background-color: rgb(170, 196, 187);
 }
   .container h3 {
@@ -22,7 +22,7 @@
 
   .row {
     width: 35%;
-    border: 2px;
+
   }
 
   .phase {
