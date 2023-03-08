@@ -1,10 +1,65 @@
-  *{
+  * {
     margin: 0%;
     padding: 0%;
   }
-.down{
-    margin-top: 10%;
+  body{
+    background-color: #407CF3;
+  }
+.container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(170, 196, 187);
+}
+  .container h3 {
+    font-family: monospace;
+    text-align: center;
+  }
+
+  .container .row {
+    margin-top: 25px;
+    
+  }
+
+  .row {
+    width: 35%;
+    border: 2px;
+  }
+
+  .phase {
+
+    width: 100%;
+  }
+
+  .card {
+    padding: 15px;
+
+  }
+
+  .card-body {
+    margin-left: 20px;
+  }
+
+  .view {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+
+  @media screen and (max-width:350px) {
+    .container {
+      display: flex;
+      overflow: auto;
+      scroll-snap-type: x mandatory;
     }
-    .imgshadow{
-      box-shadow: 0 0 0 5px gray;
+
+    .container h3 {
+      font-family: monospace;
+      text-align: center;
+      display: flex;
     }
+
+    .container .row {
+      scroll-snap-align: start;
+    }
+
+  }
