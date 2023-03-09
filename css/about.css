@@ -53,7 +53,9 @@ body{
     border-bottom: 2px solid #fff;
     animation:pulse 0.6s ease-in-out;
   }
-  
+  .navbar-brand{
+    font-family:inherit;
+  }
 
 .about-1{
     margin: 30px;
@@ -118,4 +120,7 @@ body{
 }
 .footer p{
     color: #050000;
+}
+.text-conter h3{
+    text-align: center;
 }
