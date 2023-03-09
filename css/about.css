@@ -121,6 +121,6 @@ body{
 .footer p{
     color: #050000;
 }
-.text-conter h3{
+.text-conter h3, .text-conter p{
     text-align: center;
 }
