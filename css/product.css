@@ -3,7 +3,7 @@
     padding: 0%;
   }
   body{
-    background-color: #407CF3;
+    background-color: #CEE0E6;
   }
 
   .navbar {
@@ -71,7 +71,7 @@
 .container{
   margin-top: 15px;
   margin-bottom: 10px;
-  background-color: rgb(170, 196, 187);
+  background-color:#F0EAE0;
 }
   .container h3 {
     font-family: monospace;
@@ -95,34 +95,14 @@
 
   .card {
     padding: 15px;
-
+    width:300px ;
   }
 
-  .card-body {
-    margin-left: 20px;
-  }
-
+  
   .view {
     display: flex;
     justify-content: end;
     margin-right: 25px;
   }
 
-  @media screen and (max-width:350px) {
-    .container {
-      display: flex;
-      overflow: auto;
-      scroll-snap-type: x mandatory;
-    }
-
-    .container h3 {
-      font-family: monospace;
-      text-align: center;
-      display: flex;
-    }
-
-    .container .row {
-      scroll-snap-align: start;
-    }
-
-  }
+ 
