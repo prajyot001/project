@@ -56,7 +56,7 @@
 
 
 .container{
-margin-top: 15px;
+margin-top: 30px;
 margin-bottom: 10px;
 
 }
@@ -104,23 +104,22 @@ display: none;
 
 }
 
-.card{
-border:1px solid #362e54;
+.container h3 , .card{
+/* border:1px solid #362e54; */
 animation-name: anime;
 animation-duration: 0.75s;
  transform: perspective(100px);
 }
 
 @keyframes anime{
-from{
-  transform: rotateX(90deg);
-  transform: rotateZ(-180deg);
-  transform-origin: -200%;
-  translate:0 0 100px;
-  translate:0 10vh 0;
- opacity: 0;
- 
-}
+0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
 
 }
 .myBtn2{

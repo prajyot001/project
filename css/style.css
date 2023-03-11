@@ -75,13 +75,13 @@
 /* navigation style end */
 
 .jumbotron {
-  background: #362e54  ;
+
   background-color:#362e54 ;
   color: #fff;
   padding: 15%;
   font-family: Montserrat, sans-serif;
- border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
+ border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
   
 }
 .phase {
