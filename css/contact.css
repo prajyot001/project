@@ -11,7 +11,7 @@
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  background-color: #0A261F;
+  background-color: #45496A;
   padding: 5px;
 
 }
@@ -78,4 +78,8 @@
 }
 .form-label{
   margin-top: 20px;
+}
+.invalid-feedback{
+  display: none;
+  color: red;
 }
