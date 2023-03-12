@@ -74,9 +74,14 @@
   
 }
 /* navigation style end */
+body
+{
 
+ 
+  background-image:url(/img/img10.jpg);
+}
 .jumbotron {
-
+  
   background-color:#362e54 ;
   color: #fff;
   padding: 15%;
@@ -96,6 +101,7 @@
   background-color: #fff;
   border: 1px solid #45496A;
   padding-bottom: 2px;
+  
 }
 .card-title{
   margin-top: 10px;

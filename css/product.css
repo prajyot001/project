@@ -2,6 +2,9 @@
   margin: 0%;
   padding: 0%;
 }
+body{
+  background-image:url(/img/img10.jpg);
+}
 .navbar {
   margin-bottom: 0;
   border: 0;
