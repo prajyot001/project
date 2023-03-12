@@ -5,8 +5,8 @@
 .logo{
 
   width: 50px;
-  display: flex;
-  justify-content: start;
+  margin-right: 15px;
+  margin-top: 7px;
   border: #fff;
   border-radius: 50%;
   
@@ -30,7 +30,7 @@
   color: #fff !important;
  
 }
-.navbar li a, .navbar .navbar-brand {
+.navbar li a, .navbar .navbar-brand ,.logo{
   color: #fff !important;
   fill: none;
   animation-name: anime;
@@ -41,7 +41,7 @@
 @keyframes anime{
   from{
   
-    transform:  translate(0, -100%); 
+    transform:  translate(0, -300%); 
    
   }
 }
@@ -71,6 +71,7 @@
 
 .navbar-brand{
   font-family:inherit;
+  
 }
 /* navigation style end */
 
